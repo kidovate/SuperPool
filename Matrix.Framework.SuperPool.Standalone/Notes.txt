@@ -1,0 +1,11 @@
+﻿*IMPORTANT*
+
+This assembly combines all the files of SuperPool Framework together, in one assembly.
+So if you wish to use the only the super framework in your solution, but do not wish 
+to use all the Matrix Platform multiple assemblies, you can use this instead.
+
+This is also why different files inside this project are places in different namespaces.
+
+The only reference required along with this assembly is the PowerCollections Dll. If you
+mandatorily need to only use one assembly, since include the source code of the PowerCollections
+into this project (you can find it here: http://powercollections.codeplex.com/)

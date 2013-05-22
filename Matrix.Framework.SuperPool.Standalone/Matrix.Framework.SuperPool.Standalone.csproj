@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1F892C50-410F-4ECF-961F-6B939CCB5F5F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Matrix.Framework.SuperPool.Standalone</RootNamespace>
+    <AssemblyName>Matrix.Framework.SuperPool.Standalone</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PowerCollections, Version=1.0.2141.24679, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\PowerCollections.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common.Sockets\Common\SocketClientCommunicator.cs" />
+    <Compile Include="Common.Sockets\Common\SocketCommunicator.cs" />
+    <Compile Include="Common.Sockets\Common\SocketCommunicatorEx.cs" />
+    <Compile Include="Common.Sockets\Common\SystemMessage.cs" />
+    <Compile Include="Common.Sockets\Core\SocketMessageClient.cs" />
+    <Compile Include="Common.Sockets\Core\SocketMessageServer.cs" />
+    <Compile Include="Matrix.Common.Core\ApplicationLifetimeHelper.cs" />
+    <Compile Include="Matrix.Common.Core\Collections\BiDictionary.cs" />
+    <Compile Include="Matrix.Common.Core\Collections\CircularList.cs" />
+    <Compile Include="Matrix.Common.Core\Collections\HotSwapDictionary.cs" />
+    <Compile Include="Matrix.Common.Core\Collections\HotSwapList.cs" />
+    <Compile Include="Matrix.Common.Core\Collections\ListUnique.cs" />
+    <Compile Include="Matrix.Common.Core\Collections\SortedListEx.cs" />
+    <Compile Include="Matrix.Common.Core\CommonHelper.cs" />
+    <Compile Include="Matrix.Common.Core\CompilationHelper.cs" />
+    <Compile Include="Matrix.Common.Core\CoreSystemMonitor.cs" />
+    <Compile Include="Matrix.Common.Core\DateTimeHelper.cs" />
+    <Compile Include="Matrix.Common.Core\DynamicHelper.cs" />
+    <Compile Include="Matrix.Common.Core\FastInvokeHelper.cs" />
+    <Compile Include="Matrix.Common.Core\Identification\ComponentId.cs" />
+    <Compile Include="Matrix.Common.Core\ReflectionHelper.cs" />
+    <Compile Include="Matrix.Common.Core\Results\Result.cs" />
+    <Compile Include="Matrix.Common.Core\Serialization\BinarySerializer.cs" />
+    <Compile Include="Matrix.Common.Core\Serialization\ISerializer.cs" />
+    <Compile Include="Matrix.Common.Core\Serialization\SerializationHelper.cs" />
+    <Compile Include="Matrix.Common.Core\Serialization\SerializationInfoEx.cs" />
+    <Compile Include="Matrix.Common.Core\Serialization\SerializationSurrogateAttribute.cs" />
+    <Compile Include="Matrix.Common.Core\Serialization\SerializerBase.cs" />
+    <Compile Include="Matrix.Common.Core\StringHelper.cs" />
+    <Compile Include="Matrix.Common.Core\WebHelper.cs" />
+    <Compile Include="Matrix.Common.Extended\FastSerialization\FastSerializer.cs" />
+    <Compile Include="Matrix.Common.Extended\GeneralHelper.cs" />
+    <Compile Include="Matrix.Common.Extended\Operationals\IOperational.cs" />
+    <Compile Include="Matrix.Common.Extended\Operationals\Operational.cs" />
+    <Compile Include="Matrix.Common.Extended\ThreadPools\ThreadPoolEx2.cs" />
+    <Compile Include="Matrix.Common.Extended\ThreadPools\ThreadPoolFast.cs" />
+    <Compile Include="Matrix.Common.Extended\ThreadPools\ThreadPoolFastEx.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Clients\ActiveClient.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Clients\ActiveInvocatorClient.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Clients\EnvelopeReceiverAttribute.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Clients\ExecutionStrategies\ExecutionStrategy.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Clients\ExecutionStrategies\FrameworkThreadPoolExecutionStrategy.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Clients\ExecutionStrategies\ThreadPoolFastExecutionStrategy.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Core\ClientId.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Core\Envelope.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Core\EnvelopeStamp.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Core\EnvelopeTransportation.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Core\IMessageBus.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Core\MessageBus.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Core\MessageBusBase.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Core\MessageBusClient.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Net\ClientAccessControl.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Net\ClientMessageBus.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Net\Messages\AccessMessage.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Net\Messages\ClientsListMessage.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Net\Messages\ClientUpdateMessage.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Net\Messages\CommonResponseMessage.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Net\Messages\EnvelopeMessage.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Net\Messages\Message.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Net\Messages\RequestClientListUpdateMessage.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Net\Messages\StateUpdateMessage.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Net\ServerAccessControl.cs" />
+    <Compile Include="Matrix.Framework.MessageBus\Client\Net\ServerMessageBus.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\Call\SuperPoolCall.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\Call\SuperPoolCallContext.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\Call\SuperPoolProxyCall.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\Call\SyncCallInfo.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\Clients\AsyncResultParams.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\Clients\CallOutcome.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\Clients\ISuperPoolClient.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\Clients\SuperPoolClient.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\Core\ISuperPoolIntercom.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\Core\SuperPool.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\Core\SuperPoolCallbacks.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\Core\SuperPoolClients.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\Core\SuperPoolInterfaceAttribute.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\Core\SuperPoolInvocation.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\Core\SuperPoolSubscription.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\DynamicProxy\GeneratedStandaloneMethodInfo.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\DynamicProxy\IDynamicProxyMethodSink.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\DynamicProxy\IProxyTypeSink.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\DynamicProxy\ProxyTypeBuilder.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\DynamicProxy\ProxyTypeManager.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\Subscription\ClientEventsHandler.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\Subscription\EventSubscriptionInfo.cs" />
+    <Compile Include="Matrix.Framework.SuperPool\Subscription\EventSubscriptionRequest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="License.txt" />
+    <Content Include="Notes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

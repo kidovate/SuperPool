@@ -1,0 +1,40 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="ED1A3CF5-CAFB-483C-B64A-DC648782F4FA/f:InvocationModesDemonstration.cs" caret="4578" fromTop="44" />
+    <File id="9E5B7C71-E796-47A3-9D07-2BFBCA5DFC3F/d:SpeedTests/f:PoolSpeedTest.cs" caret="0" fromTop="0" />
+    <File id="9E5B7C71-E796-47A3-9D07-2BFBCA5DFC3F/f:Program.cs" caret="0" fromTop="0" />
+    <File id="ED1A3CF5-CAFB-483C-B64A-DC648782F4FA/f:FormClient.Designer.cs" caret="7157" fromTop="31" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.SuperPool/d:Subscription/f:ClientEventsHandler.cs" caret="0" fromTop="0" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.SuperPool/d:Core/f:SuperPoolInvocation.cs" caret="3373" fromTop="0" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.SuperPool/d:Core/f:SuperPoolInterfaceAttribute.cs" caret="997" fromTop="15" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.SuperPool/d:Core/f:ISuperPoolIntercom.cs" caret="1467" fromTop="25" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.MessageBus/d:Client/d:Clients/f:ActiveClient.cs" caret="2087" fromTop="19" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.MessageBus/d:Client/d:Clients/f:ActiveInvocatorClient.cs" caret="6875" fromTop="19" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.MessageBus/d:Client/d:Core/f:MessageBusClient.cs" caret="1534" fromTop="22" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Common.Core/d:Collections/f:BiDictionary.cs" caret="1774" fromTop="21" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.SuperPool/d:Core/f:SuperPoolSubscription.cs" caret="1556" fromTop="17" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.SuperPool/d:Core/f:SuperPoolCallbacks.cs" caret="5854" fromTop="56" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.MessageBus/d:Client/d:Core/f:MessageBus.cs" caret="10579" fromTop="84" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.MessageBus/d:Client/d:Core/f:MessageBusBase.cs" caret="4179" fromTop="22" />
+    <File id="ED1A3CF5-CAFB-483C-B64A-DC648782F4FA/f:ICommunicationInterface.cs" caret="1694" fromTop="33" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.MessageBus/d:Client/d:Core/f:IMessageBus.cs" caret="6417" fromTop="24" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.MessageBus/d:Client/d:Net/f:ClientMessageBus.cs" caret="8435" fromTop="17" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.SuperPool/d:Clients/f:SuperPoolClient.cs" caret="35984" fromTop="9" />
+    <File id="ED1A3CF5-CAFB-483C-B64A-DC648782F4FA/f:FormServer.cs" caret="4383" fromTop="13" />
+    <File id="ED1A3CF5-CAFB-483C-B64A-DC648782F4FA/f:FormClient.cs" caret="6986" fromTop="22" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.SuperPool/d:Core/f:SuperPool.cs" caret="1553" fromTop="8" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Common.Sockets/d:Core/f:SocketMessageServer.cs" caret="11124" fromTop="46" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.MessageBus/d:Client/d:Net/f:ServerMessageBus.cs" caret="20360" fromTop="44" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.MessageBus/d:Client/d:Net/d:Messages/f:ClientsListMessage.cs" caret="2110" fromTop="33" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.SuperPool/d:Core/f:SuperPoolClients.cs" caret="10696" fromTop="13" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="ED1A3CF5-CAFB-483C-B64A-DC648782F4FA/f:FormClient.Designer.cs" caret="9524" fromTop="22" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.SuperPool/d:Clients/f:SuperPoolClient.cs" caret="37192" fromTop="16" />
+    <File id="ED1A3CF5-CAFB-483C-B64A-DC648782F4FA/f:FormServer.cs" caret="3144" fromTop="35" />
+    <File id="ED1A3CF5-CAFB-483C-B64A-DC648782F4FA/f:FormClient.cs" caret="4871" fromTop="47" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.MessageBus/d:Client/d:Net/f:ClientMessageBus.cs" caret="8739" fromTop="21" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.SuperPool/d:Core/f:SuperPoolClients.cs" caret="11579" fromTop="24" />
+    <File id="1F892C50-410F-4ECF-961F-6B939CCB5F5F/d:Matrix.Framework.MessageBus/d:Client/d:Net/f:ServerMessageBus.cs" caret="20360" fromTop="44" />
+  </RecentEdits>
+</RecentFiles>

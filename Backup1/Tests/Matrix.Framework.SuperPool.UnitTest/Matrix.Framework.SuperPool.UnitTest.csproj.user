@@ -1,0 +1,13 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <StartAction>Project</StartAction>
+    <StartProgram>D:\Projects\OpenForexPlatform\ofxp2_platform\Lib\nUnit\nunit.exe</StartProgram>
+    <StartArguments>
+    </StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartAction>Program</StartAction>
+    <StartProgram>D:\Projects\OpenForexPlatform\ofxp2_platform\Lib\nUnit\nunit.exe</StartProgram>
+    <StartArguments>D:\Projects\OpenForexPlatform\ofxp2_platform\Matrix.Platform\Tests\Matrix.Framework.Superpool.UnitTest\bin\Debug\Matrix.Framework.SuperPool.UnitTest.dll</StartArguments>
+  </PropertyGroup>
+</Project>

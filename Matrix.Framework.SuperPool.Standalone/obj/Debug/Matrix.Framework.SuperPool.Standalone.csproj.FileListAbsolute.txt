@@ -1,0 +1,12 @@
+C:\Users\christian\Downloads\Matrix_SuperPool_Standalone\Matrix.Framework.SuperPool.Standalone\bin\Debug\Matrix.Framework.SuperPool.Standalone.dll
+C:\Users\christian\Downloads\Matrix_SuperPool_Standalone\Matrix.Framework.SuperPool.Standalone\bin\Debug\Matrix.Framework.SuperPool.Standalone.pdb
+C:\Users\christian\Downloads\Matrix_SuperPool_Standalone\Matrix.Framework.SuperPool.Standalone\bin\Debug\PowerCollections.dll
+C:\Users\christian\Downloads\Matrix_SuperPool_Standalone\Matrix.Framework.SuperPool.Standalone\obj\Debug\Matrix.Framework.SuperPool.Standalone.csprojResolveAssemblyReference.cache
+C:\Users\christian\Downloads\Matrix_SuperPool_Standalone\Matrix.Framework.SuperPool.Standalone\obj\Debug\Matrix.Framework.SuperPool.Standalone.dll
+C:\Users\christian\Downloads\Matrix_SuperPool_Standalone\Matrix.Framework.SuperPool.Standalone\obj\Debug\Matrix.Framework.SuperPool.Standalone.pdb
+C:\Users\christian\Documents\Matrix_SuperPool_Standalone\Matrix.Framework.SuperPool.Standalone\bin\Debug\Matrix.Framework.SuperPool.Standalone.dll
+C:\Users\christian\Documents\Matrix_SuperPool_Standalone\Matrix.Framework.SuperPool.Standalone\bin\Debug\Matrix.Framework.SuperPool.Standalone.pdb
+C:\Users\christian\Documents\Matrix_SuperPool_Standalone\Matrix.Framework.SuperPool.Standalone\bin\Debug\PowerCollections.dll
+C:\Users\christian\Documents\Matrix_SuperPool_Standalone\Matrix.Framework.SuperPool.Standalone\obj\Debug\Matrix.Framework.SuperPool.Standalone.csprojResolveAssemblyReference.cache
+C:\Users\christian\Documents\Matrix_SuperPool_Standalone\Matrix.Framework.SuperPool.Standalone\obj\Debug\Matrix.Framework.SuperPool.Standalone.dll
+C:\Users\christian\Documents\Matrix_SuperPool_Standalone\Matrix.Framework.SuperPool.Standalone\obj\Debug\Matrix.Framework.SuperPool.Standalone.pdb

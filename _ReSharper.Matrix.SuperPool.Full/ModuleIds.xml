@@ -1,0 +1,47 @@
+<Modules>
+  <Module PersistentId="ED1A3CF5-CAFB-483C-B64A-DC648782F4FA" ModuleId="Matrix.Framework.SuperPool.Demonstration" />
+  <Module PersistentId="1F892C50-410F-4ECF-961F-6B939CCB5F5F" ModuleId="Matrix.Framework.SuperPool.Standalone" />
+  <Module PersistentId="9E5B7C71-E796-47A3-9D07-2BFBCA5DFC3F" ModuleId="Matrix.Framework.SuperPool.Test" />
+  <Module PersistentId="Matrix.Framework.SuperPool.Standalone, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="Matrix.Framework.SuperPool.Standalone_1" />
+  <Module PersistentId="B211F037-3276-4BC4-A772-43C504725E00" ModuleId="Matrix.Framework.SuperPool.UnitTest" />
+  <Module PersistentId="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="mscorlib" />
+  <Module PersistentId="Matrix.Common.Diagnostics, Version=0.7.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="Matrix.Common.Diagnostics" />
+  <Module PersistentId="Matrix.Common.Diagnostics.FrontEnd, Version=0.7.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="Matrix.Common.Diagnostics.FrontEnd" />
+  <Module PersistentId="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System" />
+  <Module PersistentId="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Drawing" />
+  <Module PersistentId="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Data" />
+  <Module PersistentId="System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Xml" />
+  <Module PersistentId="PowerCollections, Version=1.0.2141.24679, Culture=neutral, PublicKeyToken=null" ModuleId="PowerCollections" />
+  <Module PersistentId="Matrix.Framework.TestFramework, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="Matrix.Framework.TestFramework" />
+  <Module PersistentId="nunit.framework, Version=2.5.3.9345, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" ModuleId="nunit.framework" />
+  <Module PersistentId="Matrix.Framework.SuperPool.Demonstration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="Matrix.Framework.SuperPool.Demonstration_1" />
+  <Module PersistentId="Matrix.Framework.SuperPool.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="Matrix.Framework.SuperPool.Test_1" />
+  <Module PersistentId="Matrix.Framework.SuperPool.Standalone, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="Matrix.Framework.SuperPool.Standalone_2" />
+  <Module PersistentId="System.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Security" />
+  <Module PersistentId="Accessibility, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="Accessibility" />
+  <Module PersistentId="System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Configuration" />
+  <Module PersistentId="System.Runtime.Serialization.Formatters.Soap, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Runtime.Serialization.Formatters.Soap" />
+  <Module PersistentId="System.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Deployment" />
+  <Module PersistentId="System.Data.SqlXml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Data.SqlXml" />
+  <Module PersistentId="Matrix.Common.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="Matrix.Common.Core" />
+  <Module PersistentId="Matrix.Common.FrontEnd, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="Matrix.Common.FrontEnd" />
+  <Module PersistentId="Matrix.Common.Extended, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="Matrix.Common.Extended" />
+  <Module PersistentId="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=e7759284e53218e0" ModuleId="log4net" />
+  <Module PersistentId="Matrix.Common.Sockets, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="Matrix.Common.Sockets" />
+  <Module PersistentId="System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Web" />
+  <Module PersistentId="Microsoft.VisualC, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="Microsoft.VisualC" />
+  <Module PersistentId="System.Transactions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Transactions" />
+  <Module PersistentId="System.EnterpriseServices, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.EnterpriseServices" />
+  <Module PersistentId="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Web.Services" />
+  <Module PersistentId="System.DirectoryServices, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.DirectoryServices" />
+  <Module PersistentId="System.DirectoryServices.Protocols, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.DirectoryServices.Protocols" />
+  <Module PersistentId="System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Design" />
+  <Module PersistentId="System.ServiceProcess, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.ServiceProcess" />
+  <Module PersistentId="System.Web.RegularExpressions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Web.RegularExpressions" />
+  <Module PersistentId="System.Runtime.Remoting, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Runtime.Remoting" />
+  <Module PersistentId="System.Drawing.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Drawing.Design" />
+  <Module PersistentId="System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Data.OracleClient" />
+  <Module PersistentId="System.Configuration.Install, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Configuration.Install" />
+  <Module PersistentId="Matrix.Framework.SuperPool.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="Matrix.Framework.SuperPool.UnitTest_1" />
+</Modules>
